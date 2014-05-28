@@ -1,6 +1,6 @@
 {
   "name": "generator-mote",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Small generator for shared styles, templates, & scripts across projects.",
   "license": "MIT",
   "main": "app/index.js",
