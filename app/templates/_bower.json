@@ -1,0 +1,17 @@
+{
+  "name": "<%= _.slugify(projectName) %>",
+  "version": "0.0.0",
+  "dependencies": {},
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "Gruntfile.coffee",
+    "package.json"<% if ( includeScripts ) { %>,
+    "scripts"<% } %><% if ( includePages ) { %>,
+    "pages"<% } %>
+  ]
+}
+

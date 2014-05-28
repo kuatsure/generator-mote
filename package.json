@@ -1,0 +1,48 @@
+{
+  "name": "generator-mote",
+  "version": "0.0.0",
+  "description": "Small generator for shared styles, templates, & scripts across projects.",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kuatsure/generator-mote.git"
+  },
+  "homepage": "https://github.com/kuatsure/generator-mote",
+  "bugs": "https://github.com/kuatsure/generator-mote/issues",
+  "author": {
+    "name": "Jarrett Drouillard",
+    "email": "jarrett@thestyl.us",
+    "url": "https://thestyl.us"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "scss",
+    "sass",
+    "ruby-sass",
+    "coffeescript",
+    "coffee",
+    "javascript",
+    "html",
+    "templates"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
