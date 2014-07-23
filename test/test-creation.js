@@ -26,6 +26,7 @@ describe('mote generator', function () {
       'package.json',
       'Gruntfile.coffee',
       'scripts/moteTest.js',
+      '.gitignore'
     ];
 
     helpers.mockPrompt(this.app, {
@@ -47,7 +48,8 @@ describe('mote generator', function () {
       '.editorconfig',
       'bower.json',
       'package.json',
-      'moteTest.css'
+      'moteTest.css',
+      '.gitignore'
     ];
 
     helpers.mockPrompt(this.app, {
@@ -70,7 +72,8 @@ describe('mote generator', function () {
       'bower.json',
       'package.json',
       'Gruntfile.coffee',
-      'pages/moteTest.html'
+      'pages/moteTest.html',
+      '.gitignore'
     ];
 
     helpers.mockPrompt(this.app, {

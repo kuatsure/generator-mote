@@ -137,6 +137,10 @@ var MoteGenerator = yeoman.generators.Base.extend({
 
   gruntFile: function () {
     this.template('Gruntfile.coffee', 'Gruntfile.coffee');
+  },
+
+  git: function () {
+    this.copy('gitignore', '.gitignore');
   }
 });
 
